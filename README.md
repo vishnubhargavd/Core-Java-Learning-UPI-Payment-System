@@ -1,60 +1,55 @@
-# Learning Core Java Through Projects ☕
+Learning Core Java Through Projects
 
 I'm learning Core Java by building small projects and practicing the concepts along the way.
 
-This repository contains my first project, a simple UPI Payment System built using Java. The main goal is to understand how Java concepts work in practice rather than just learning theory.
+This repository contains my first project, a simple UPI Payment System built using Java. My goal is to understand Java concepts by applying them in practice.
 
-## What I'm Learning
+What I'm Learning
 
-- Classes and Objects
-- Constructors
-- Encapsulation
-- Getters and Setters
-- Object-Oriented Programming (OOP)
-- Java Collections Framework (`HashMap`)
-- Basic money transfer operations
-- Handling successful and failed transactions
+Classes and Objects
+Constructors
+Encapsulation
+Getters and Setters
+Object-Oriented Programming (OOP)
+Java Collections Framework (HashMap)
+Basic money transfer operations
+Transaction handling
+Project Structure
 
-## Project Structure
+Main.java — Entry point of the application
+BankAccount.java — Manages account details and balance
+User.java — Stores user information and UPI ID
+UPIServices.java — Handles user registration and money transfers
+Transaction.java — Displays transaction details
+Features
 
-```
-UPIApp-01/
-├── Main.java
-├── BankAccount.java
-├── User.java
-├── UPIServices.java
-└── Transaction.java
-```
+Register users with UPI IDs
+Manage bank accounts and balances
+Check account balances
+Transfer money between users
+Display transaction status
+How to Run
 
-## Features
+Prerequisite: Install the Java JDK.
 
-- Register users with their UPI IDs.
-- Manage bank account balances.
-- Check account balances.
-- Transfer money between users.
-- Display transaction status.
+1. Clone the repository
 
-## How to Run
+Run git clone <your-repository-url> in your terminal.
 
-Make sure Java is installed on your system.
+2. Navigate to the project folder
 
-1. Clone this repository:```
-   git clone <your-repository-url>
-   ```
-2. Navigate to the project directory:```
-   cd UPIApp-01
-   ```
-3. Compile the Java files:```
-   javac *.java
-   ```
-4. Run the application:```
-   java Main
-   ```
+Run cd UPIApp-01.
 
-## My Goal
+3. Compile the Java files
+
+Run javac *.java.
+
+4. Run the application
+
+Run java Main.
+
+My Goal
 
 I'm using this repository to track my progress in learning Java. I'll keep adding new concepts and projects as I improve my coding skills.
 
-This is a learning project, so there's still a lot to improve and explore.
-
-Thanks for checking out my repository\!
+This is a learning project, and there's still a lot more to explore and improve.
