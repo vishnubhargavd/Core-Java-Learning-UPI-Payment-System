@@ -35,4 +35,7 @@ public class User {
     public void getbankAccount(BankAccount bankAccount) {
         return bankAccount;
     }
+    public void checkBalance(){
+        System.out.print(name+" Balance is ruppe: "+bankAccount.getbalance());
+    }
 }
