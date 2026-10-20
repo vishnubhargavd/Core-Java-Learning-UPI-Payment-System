@@ -24,18 +24,21 @@ public class User {
         this.bankAccount = bankAccount;
     }
 
-    public void getName(String name) {
+    public String getName() {
         return name;
     }
 
-    public void getUpiID(String UpiID) {
+    public String getUpiID() {
         return UpiID;
     }
 
-    public void getbankAccount(BankAccount bankAccount) {
+    public BankAccount getbankAccount() {
         return bankAccount;
     }
-    public void checkBalance(){
-        System.out.print(name+" Balance is ruppe: "+bankAccount.getbalance());
+
+    public void checkBalance() {
+        System.out.println(
+            name + " Balance is rupees: " + bankAccount.getbalance()
+        );
     }
 }
