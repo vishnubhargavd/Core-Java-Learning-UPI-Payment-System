@@ -3,32 +3,36 @@ public class BankAccount {
     private String AccountNumber;
     private double balance;
 
-    public BankAccount( int AccountNumber, String balance){
+    public BankAccount(String AccountNumber, double balance) {
         this.AccountNumber = AccountNumber;
         this.balance = balance;
     }
-    public void setAccountNumber(String AccountNumber){
+
+    public void setAccountNumber(String AccountNumber) {
         this.AccountNumber = AccountNumber;
     }
-    public void setbalance(double balance){
+
+    public void setbalance(double balance) {
         this.balance = balance;
     }
-    public void getbalance(){
+
+    public double getbalance() {
         return balance;
     }
-    public void getAccountNumber()){
+
+    public String getAccountNumber() {
         return AccountNumber;
     }
 
-
-    public void credit(double amount){
-        balance+=amount;
+    public void credit(double amount) {
+        balance += amount;
     }
-    public boolean debit(double amount){
-        if(balance < amount){
+
+    public boolean debit(double amount) {
+        if (balance < amount) {
             return false;
-        }else{
-            balance-=amount;
+        } else {
+            balance -= amount;
             return true;
         }
     }
